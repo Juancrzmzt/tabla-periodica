@@ -1,0 +1,119 @@
+@font-face 
+{
+  font-family: 'MiFuenteLocal';
+  src: url('../fonts/mi-fuente.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'MiFuenteLocal', 
+  sans-serif;
+}
+
+body {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+
+/* Titulo Principal */
+h1 
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+/* Secciones secundarias */
+h2 
+{
+  width: 100%;
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de filas */
+.fila {
+  width: 100%;
+  clear: both;
+}
+
+/* Celda base de elemento */
+
+  .elemento {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+
+/* Celda vacía para espacio */
+ .vacio {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 2px;
+}
+
+/* Saltos de línea y separación de lantanidos */
+.salto {
+  clear: both;
+}
+
+.separador {
+  width: 100%;
+  height: 30px;
+  clear: both;
+}
+
+/* Jerarquía de la celda */
+.elemento h3 {
+  width: 50%;
+  float: left;
+  font-size: 8px;
+}
+
+.elemento h4 {
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 8px;
+}
+
+
+.elemento h5 {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+    .elemento h6 {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-size: 7px;
+  font-weight: normal;
+}
+
+/* Paleta de Colores */
+.no-metal { background-color: #8bc4fa; }
+.alcalino { background-color: #ff7c7c; }
+.alcalinoterreo { background-color: #f1a854; }
+.transicion { background-color: #ffee7c; }
+.lantanido { background-color: #e3cca6; }
+.actinido { background-color: #cdd1d9; }
+.otros-metales { background-color: #b1fb94; }
+.metaloide { background-color: #8ff2dc; }
+.halogeno { background-color: #cca8ff; }
+.gas-noble { background-color: #f69bd7; }
